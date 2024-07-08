@@ -1,0 +1,28 @@
+asks = [
+    {
+        'id': 'T1',
+        'period': 50,
+        'execution_time': 20,
+        'resources': {'R1': 1, 'R2': 1, 'R3': 0},
+        'processor': 1,
+        'repeat': 4,
+        'initial_execution_time': 20
+    },
+    {
+        'id': 'T2',
+        'period': 30,
+        'execution_time': 10,
+        'resources': {'R1': 1, 'R2': 2, 'R3': 0},
+        'processor': 2,
+        'repeat': 3,
+        'initial_execution_time': 10
+    },
+    {
+        'id': 'T3',
+        'period': 70,
+        'execution_time': 30,
+        'resources': {'R1': 2, 'R2': 0, 'R3': 1},
+        'processor': 1,
+        'repeat': 2,
+        'initial_execution_time': 30
+    }
